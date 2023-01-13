@@ -10,9 +10,9 @@ from secrets import sender_server
 from secrets import sender_port
 from secrets import recipient_address
 
-# or uncomment the following lines and set secret values here
+# or uncomment the following lines and set secret values here (specific to GMAIL - user must generate GMAIL API KEY in place of account password or script will fail)
 # sender_address = "<sender email address here>"
-# sender_password = "<sender passwort here>"
+# sender_password = "<api key here>"
 # sender_server = 'smtp.gmail.com'
 # sender_port = 587
 # recipient_address = "<recipient address here>"
